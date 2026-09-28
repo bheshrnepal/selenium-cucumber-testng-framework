@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Plain TestNG + Page Object Model tests (no Cucumber). Run with: mvn test -Dsuite=testng-pom.xml -->
+<suite name="SauceDemo TestNG Suite" parallel="methods" thread-count="1">
+    <test name="TestNG POM Tests">
+        <packages>
+            <package name="com.saucedemo.tests"/>
+        </packages>
+    </test>
+</suite>
